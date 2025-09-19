@@ -2,8 +2,8 @@
 from app import parser, analyzer, updater, exporter
 
 def main():
-    job_desc = parser.load_job_description("data/sample_job.txt")
-    cv_text = parser.load_cv("data/sample_cv.pdf")
+    job_desc = parser.load_job_description("data/job_desc.txt")
+    cv_text = parser.load_cv("data/my_cv.pdf")
 
     job_skills = analyzer.extract_skills(job_desc)
     cv_skills = analyzer.extract_skills(cv_text)

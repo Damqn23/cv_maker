@@ -1,0 +1,3 @@
+We are looking for a Full-Stack Developer with expertise in C#, .NET, React, and cloud computing (AWS).
+Experience with DevOps, containerization, and Python is a plus.
+Strong communication and teamwork skills are required.
